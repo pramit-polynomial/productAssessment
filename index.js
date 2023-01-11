@@ -6,7 +6,6 @@ require('dotenv').config();
 
 const router= require("./route/router.js")
 const port = 3000;
-
 app.use(bodyparser.json());
 
 mongoose.connect('mongodb+srv://Uranium-Batch:aruSjkdGdfhc9MRK@functionup.eel5r.mongodb.net/PramitDBForAssesment?retryWrites=true&w=majority', {
